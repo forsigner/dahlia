@@ -50,15 +50,15 @@ yarn create dahlia-app myapp
 ## globally
 
 ```bash
-yarn global add create-dahlia-app
+npm i -g create-dahlia-app
 create-dahlia-app myapp
 ```
 
 ## Scripts
 
-- `npm start`
-- `npm test`
-- `npm build`
+- `npm run start` - 启动开发服务器
+- `npm run build` - 生产环境打包
+- `npm run test` - 启动单元测试
 
 ## License
 

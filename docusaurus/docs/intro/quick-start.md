@@ -50,12 +50,12 @@ yarn create dahlia-app myapp
 ## 全局安装
 
 ```bash
-yarn global add create-dahlia-app
+npm i -g create-dahlia-app
 create-dahlia-app myapp
 ```
 
 ## 可用脚本
 
-- `npm start` - 启动开发服务器
-- `npm test` - 启动单元测试
-- `npm build` - 生产环境打包
+- `npm run start` - 启动开发服务器
+- `npm run build` - 生产环境打包
+- `npm run test` - 启动单元测试
