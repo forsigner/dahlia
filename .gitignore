@@ -14,3 +14,4 @@ lerna-debug.log
 
 .dahlia
 yarn.lock
+package-lock.json
