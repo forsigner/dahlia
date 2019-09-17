@@ -17,8 +17,9 @@ It will create a directory called myapp inside the current folder:
 ```bash
 .
 ├── package.json
-├── pages
-│   └── index.tsx
+├── src
+│   └── pages
+│       └── index.tsx
 └── tsconfig.json
 ```
 
@@ -55,9 +56,9 @@ create-dahlia-app myapp
 
 ## Scripts
 
-- `npm start` -
-- `npm test` -
-- `npm build` -
+- `npm start`
+- `npm test`
+- `npm build`
 
 ## License
 
