@@ -8,6 +8,7 @@ export interface Plugin {
 
 export interface Configuration extends Plugin {
   title?: string
+  appHtml?: string
   buildDir?: string
   plugins?: Plugin[]
 }

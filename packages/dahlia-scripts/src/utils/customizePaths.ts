@@ -16,6 +16,10 @@ export const customizePaths = () => {
     paths.appBuild = dahliaConfig.buildDir
   }
 
+  if (dahliaConfig && dahliaConfig.appHtml) {
+    paths.appHtml = dahliaConfig.appHtml
+  }
+
   require(reactScriptsPaths)
   require.cache[require.resolve(reactScriptsPaths)].exports = paths
 }
